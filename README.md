@@ -27,31 +27,6 @@ ScholarAI is a simple research paper assistant with a React frontend and a FastA
   [`backend/mcp/server.py`]
   [`backend/mcp/client.py`]
 
-## Project Structure
-
-ScholarAI/
-|-- backend/
-| |-- agents/
-| | |-- **init**.py
-| | |-- citation_agent.py
-| | |-- coordinator_agent.py
-| | |-- review_agent.py
-| | |-- search_agent.py
-| | `-- summary_agent_remote.py
-|   |-- tools/
-|   |   |-- __init__.py
-|   |   `-- custom_tools.py
-| |-- main.py
-| `-- requirements.txt
-|-- frontend/
-|   |-- src/
-|   |   |-- App.css
-|   |   |-- App.jsx
-|   |   |-- index.css
-|   |   `-- main.jsx
-| |-- package.json
-| `-- vite.config.js
-`-- README.md
 
 ## Backend Setup
 
