@@ -28,7 +28,7 @@ ScholarAI is a simple research paper assistant with a React frontend and a FastA
   [`backend/mcp/client.py`]
 
 
-## Backend Setup
+## How to run the code?
 
 ```powershell
 cd backend
@@ -46,8 +46,6 @@ Optional: start the remote summary service used by `/summarize` before fallback 
 cd backend
 python -m agents.summary_agent_remote
 ```
-
-## Backend Setup
 
 ```powershell
 cd frontend
